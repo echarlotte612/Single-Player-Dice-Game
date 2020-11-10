@@ -1,0 +1,50 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(255, 221, 31), rgb(204, 0, 0));
+}
+.game {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: calc(50vw - 16px);
+    height: calc(70vh - 16px);
+    border: ridge white;
+    resize: horizontal;
+    padding: 2%;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+#playerScoreboard {
+    text-align: center;
+}
+
+#resetButton {
+    display: none;
+}
+
+button {
+    padding: 5px;
+    background: rgb(255, 181, 22);
+    border: none;
+    border-radius: 0.25em;
+    font-size: 1em;
+    font-weight: 600;
+}
+
